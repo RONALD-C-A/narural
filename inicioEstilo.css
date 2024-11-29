@@ -1,0 +1,94 @@
+/* Estilos CSS (puedes personalizarlos) */
+header {
+  background-color: #03cc17;
+  color: #fbf5f5;
+  padding: 10px;
+  text-align: center;
+}
+
+h2, p{
+  text-align: center;
+}
+
+nav {
+  background-color: #0cf323;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #dc9393;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Centrar Logo */
+.logo {
+  float: left;
+  margin-right: 20px;
+}
+
+/* Carucel */
+.carousel img {
+  max-height: 450px;
+  width: auto;
+}
+
+/* Barra lateral */
+.sidebar {
+  width: 250px; /* Ancho de la barra lateral */
+  background-color: #f0f0f0; /* Color de fondo de la barra lateral */
+  padding: 20px;
+}
+
+.sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Ajusta la posición de la barra lateral */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Ocupa el 100% del ancho en dispositivos pequeños */
+    margin-top: 20px; /* Espacio arriba de la barra lateral en dispositivos pequeños */
+  }
+}
+
+
+/* color de fondo de body */
+body {
+  background-image: linear-gradient(to bottom, #e9f909, #e9f909 , #23e747, #baf50b);
+}
+
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #1c9dcb;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

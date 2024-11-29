@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NaturalGo</title>
+
+    <link rel="stylesheet" href="inicioEstilo.css" />
+    <script src="script.js"></script>
+
+    <link rel="shortcut icon" href="imagenes/0_Go.png" type="image/x-icon" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="Boostrap/css/bootstrap.css" />
+    <script src="Boostrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Fin -->
+  </head>
+
+  <body>
+
+    <!-- Cabecera -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+      <!-- ------------ MENU DESPLEGABLE ----------------------- -->
+      <img src="imagenes/Logo_NaturalGosvg.svg">
+    <hr>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+      <!-- TEXTO O LOGOTIPO -->
+      <img src="imagenes/Logo_NaturalGosvg.svg" width="200" alt="">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos
+              </a>
+              <!-- LISTA DESPLEGABLE DE DROPDOWN -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="productos_Cajas.html">CAJAS</a></li>
+                <li><a class="dropdown-item" href="productos_Capsulas.html">CAPSULAS</a></li>
+                <li><a class="dropdown-item" href="productos_Liquidos.html">LIQUIDOS</a></li>
+                <li><a class="dropdown-item" href="productos_Jabon.html">JABON</a></li>
+                <li><a class="dropdown-item" href="productos_Todos.html">TODOS LOS PRODUCTOS</a></li>
+              </ul>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+<!--  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categoria:
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">A</a></li>
+                <li><a class="dropdown-item" href="·">B</a></li>
+                <li><a class="dropdown-item" href="#">D</a></li>
+              </ul> 
+
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar Producto :)" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+-->
+        </div>
+      </div>
+    </nav>
+    
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <br>
+    <!-- Carucel -->
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <!--  -->
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <!--  -->
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <!--  -->
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <!-- imagen -->
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/Carrucel/1_Carrucel.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/Carrucel/2_Carrucel.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/Carrucel/3_Carrucel.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <!--  -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <!--  -->
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+    <!--  -->
+    <main>
+      <section>
+          <h2>MISIÓN</h2>
+          <p>
+Llevar un oportunidad de prosperidad a toda persona, que le permita manejar su condición de vida con productos saludables y un plan de compensación justo.
+          </p>
+      </section>
+
+      <section>
+          <h2>VISIÓN</h2>
+          <p>
+Promover prosperidad real a las personas con respeto y ética.
+          </p>
+      </section>
+
+      <section>
+        <h2>EMPRESA</h2>
+        <p>
+          Con más de 27 años en investigación , desarrollo, distribución y comercialización de productos nutricionales para para el interior y el exterior de Bolivia
+          </p>
+      </section>      
+    </main>
+  <!--
+    <aside class="sidebar">
+    <h3>Barra lateral</h3>
+    <ul>
+      <li>Enlaces relacionados</li>
+      <li>Anuncios</li>
+    </ul>
+    </aside>
+  -->
+    <!-- Pie de página -->
+    <footer>
+    <p>NaturalGo - © 2023</p>
+    </footer>
+  </body>
+</html>

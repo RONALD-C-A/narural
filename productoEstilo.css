@@ -1,0 +1,33 @@
+  /* Estilos de los productos */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%; 
+  }
+
+
+
+/* Ajuste de texto responsivo */
+@media screen and (max-width: 768px) {
+  .product-card h5,p {
+    font-size: 10px; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .product-card h5,p {
+    font-size: 10px; /* Ajusta aún más el tamaño del texto para pantallas más pequeñas */
+  }
+}
